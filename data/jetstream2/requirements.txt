@@ -1,3 +1,7 @@
 openstacksdk
 requests
 psutil
+boto3
+biopython
+smart_open
+pycodestyle

@@ -10,6 +10,7 @@ This guide walks you through running analyses on Jetstream2 and accessing the Ge
 2. [Create a Jetstream2 instance](https://docs.jetstream-cloud.org/ui/exo/create_instance/)
 3. [Create and mount a workspace volume](https://docs.jetstream-cloud.org/ui/exo/storage/)
 4. Run Planemo
+5. FAQ
 
 ---
 
@@ -347,3 +348,7 @@ runcmd:
       sudo poweroff -f;
     " &
 ```
+
+# 5. FAQ
+- Where is the bucket located: the bucket is mounted to a directory located at `/genomeark-js2`
+- Will the recommendations work for all workflows: the recommendations are tailored for the example data provided. They may require adjustments for different workflows or datasets. 
