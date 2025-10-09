@@ -349,6 +349,8 @@ runcmd:
     " &
 ```
 
+**NOTE**: when your analysis has a large set of dependencies or/and will be run multiple times, it’s usually best to build a custom image with all dependencies pre-installed to save time and compute resources. Please see [Snapshots and Images](https://docs.jetstream-cloud.org/getting-started/snapshots/) for information about this.
+
 # 5. FAQ
 - Where is the bucket located: the bucket is mounted to a directory located at `/genomeark-js2`
 - Will the recommendations work for all workflows: the recommendations are tailored for the example data provided. They may require adjustments for different workflows or datasets. 
